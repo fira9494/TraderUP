@@ -1,0 +1,25 @@
+body{
+    background-color: deepskyblue;
+}
+
+.modal_container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal_container > div {
+    /*background-color: deepskyblue;*/
+    width: 50%;
+    padding: 0 5%;
+}
+
+.left{
+    margin-right: 10px;
+}
+
+.rates-value{
+    margin-top: 17%;
+    font-size: 40px;
+}

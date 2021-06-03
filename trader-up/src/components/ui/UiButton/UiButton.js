@@ -1,9 +1,12 @@
 import React from 'react'
+import { Button } from "antd";
 
-export  function UiButton() {
+export  function UiButton(props) {
   return (
-    <div>
-      <button>fira</button>
-    </div>
+    <>
+      <Button className='button' {...props}>
+          {props.children}
+      </Button>
+    </>
   )
 }
